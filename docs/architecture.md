@@ -1,4 +1,4 @@
-<!-- Copyright (c) 2026 Damian Daniel <damiand@fedoraproject.org> and contributors. MIT License. -->
+<!-- Copyright (c) 2026 damiandaniel and contributors. MIT License. -->
 # How it is built
 
 Notes on how the port is put together. Anything marked **(not checked yet)** is a guess. We still
