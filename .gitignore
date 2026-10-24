@@ -1,0 +1,14 @@
+# Copyright (c) 2026 Damian Daniel <damiand@fedoraproject.org> and contributors
+# SPDX-License-Identifier: MIT
+
+build/
+out/
+cmake-build-*/
+.vs/
+.vscode/
+.idea/
+CMakeUserPresets.json
+*.user
+*.exe
+*.obj
+*.pdb

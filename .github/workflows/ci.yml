@@ -1,0 +1,19 @@
+# Copyright (c) 2026 Damian Daniel <damiand@fedoraproject.org> and contributors
+# SPDX-License-Identifier: MIT
+
+name: ci
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Configure
+        run: cmake -S . -B build
+      - name: Build
+        run: cmake --build build --config Release
