@@ -68,12 +68,12 @@ For more detail, and the full list of what maps to what, see [docs/architecture.
 
 The full list is in [docs/roadmap.md](docs/roadmap.md).
 
-- [ ] **M0: Probes.** Small tests for the things the plan depends on (shell role, tray, notifications).
-- [ ] **M1: Drawing.** The upstream bar in a see-through window, using ANGLE and DirectComposition.
-- [ ] **M2: Services.** Sound, media, power, network, window list.
-- [ ] **M3: Shell role.** Winlogon shell, tray, desktop, hotkeys.
-- [ ] **M4: Notifications.**
-- [ ] **M5: Finish.** Installer, typing in other languages, screen readers, many monitors, DPI.
+- [ ] **M0: Probes:** Small tests for the things the plan depends on (shell role, tray, notifications).
+- [ ] **M1: Drawing:** The upstream bar in a see-through window, using ANGLE and DirectComposition.
+- [ ] **M2: Services:** Sound, media, power, network, window list.
+- [ ] **M3: Shell role:** Winlogon shell, tray, desktop, hotkeys.
+- [ ] **M4: Notifications:**
+- [ ] **M5: Finish:** Installer, typing in other languages, screen readers, many monitors, DPI.
 
 ## What's in the repo
 
