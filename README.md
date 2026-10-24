@@ -43,7 +43,7 @@ and the talk with the compositor. Those are the parts this project swaps out.
 - A new lock screen or login screen. Windows needs a special login plugin for that, which is a
   separate project.
 - Umbriel (the compositor) and Noctalia Greeter.
-- Patching or hooking `explorer.exe`. No Windhawk-style injection.
+- Patching or hooking `explorer.exe`.
 
 ## How it works
 
