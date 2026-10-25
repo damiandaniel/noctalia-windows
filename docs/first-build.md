@@ -20,7 +20,7 @@ pacman -S --needed mingw-w64-ucrt-x86_64-{libical,nlohmann-json,libsodium,libxkb
 - Some package names may be different. Search with `pacman -Ss <name>`.
 - I did not check if `libqalculate` and ANGLE (`pacman -Ss angle`) exist there. Skip them for now.
 - Check `gcc --version`. Upstream uses C++23 `<print>`, which needs **GCC 14 or newer**. GCC 13
-  failed on it in my Linux test.
+  failed.
 
 ## 2. Add upstream
 
