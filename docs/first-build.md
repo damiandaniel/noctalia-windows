@@ -72,17 +72,6 @@ Sort what you find into four piles:
 3. **POSIX call or header** (`unistd.h`, `poll.h`, `sys/*`). These need a Windows version.
 4. **Something else.** Windows macros like `min`, `max` and `ERROR` are common ones.
 
-## What I saw on Linux
-
-This is only a preview. It is not a Windows result. I ran the same setup on Linux with many
-libraries missing and stopped it after 280 seconds:
-
-- 309 of 489 steps done, 182 of them failed.
-- Most failures were missing libraries (`toml++` 95 files, `curl` 21, `GLES2` 20).
-- A few kept files still include Wayland protocol headers (`cursor-shape` 5 files,
-  `wayland-client-protocol` 2, `xdg-shell` 1, `viewporter` 1). These are real leaks outside the
-  folders we dropped.
-- `<print>` was missing, which is the GCC 14 point above.
 
 ## What "done" looks like
 
